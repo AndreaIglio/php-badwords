@@ -1,4 +1,8 @@
+<?php 
 
+$name = 'Andrea';
+$lastName = 'Iglio';
+?>
 
 
 <!DOCTYPE html>
@@ -10,5 +14,9 @@
 </head>
 <body>
     
+
+    <h1>Ciao mi chiamo <?php echo $name . ' ' . $lastName ?></h1>
+
+
 </body>
 </html>
